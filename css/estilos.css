@@ -7,18 +7,6 @@
 
 /*header*/
 
-.header {
-    display: flex;
-    justify-content: end;
-    height: 10px;
-}
-
-h1 {
-    font-size: 100px;
-    text-shadow: 10px 5px 17px;
-    text-align: center;
-}
-
 li {
     display: inline-block;
     cursor: pointer;
@@ -28,214 +16,105 @@ li {
 a {
     text-decoration: none;
     color: black;
-    font-size: 17px;
-}
-
-.clase {
-    margin: 15px;
-}
-
-.clase:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 3.5px;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(black, white);
-    transform: scale(0);
-    transform-origin: bottom right;
-    transition: transform 0.6s ease-out;
-}
-
-.clase:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+    font-size: 1rem;
 }
 
 /*indexRopa*/
+.indexMain {
+    padding-top: 1rem;
+}
+
 .productos {
     display: grid;
     grid-template-columns: repeat(3, 30%);
     justify-content: center;
-    gap: 3rem; /* espacio entre articulo */
-    margin-top: 50px;
+    gap: 3rem;
+    /* espacio entre articulo */
 }
 
 
 .producto {
-  position: relative;
+    position: relative;
 }
 
-.producto-secundario .preoducto-img {
-    width: 100%;
-    height: 150px;
-  }
 
 .producto-img {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .producto-categoria {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 }
 
 .producto-destacado {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
 }
-
 
 
 .producto-destacado .producto-categoria {
-  font-size: 5rem;
+    font-size: 5rem;
 }
 
 .productos-secundarios {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
 }
 
 .producto-secundario .producto-img {
-  width: 100%;
-  height: 100%;
-  min-height: 100px;
+    width: 100%;
+    height: 100%;
+    min-height: 100px;
 }
 
 .producto-secundario .producto-categoria {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
+}
+
+/*los otros html*/
+/*Ropa*/
+.row {
+    text-align: center;
+}
+
+.col {
+    padding: 10px;
+}
+.col p {
+    margin-bottom:0.5rem;
+}
+
+.conteinerRopa {
+    padding-top: 2rem;
+}
+
+h2 {
+    padding-top: 2rem;
 }
 
 
 /*tipo de letra*/
 p {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 /*footer*/
 
-.contenedorgeneral {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    padding-left: 60px;
-    line-height: 25px;
-}
-
-.contenedorgeneral p {
-    text-decoration: underline;
-}
-
-.pago {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-.pago p {
-    padding-left: 70px;
-    grid-area: 1/1/1/5;
-    display: flex;
-    justify-content: start;
-    text-decoration: underline;
-}
 
 .subiralinicio {
-    font-size: 35px;
+    font-size: 2rem;
 }
-
-/*html Ropa*/
-
-/*remeras*/
-.remera {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-.cajah2 {
-    grid-area: 1/1/1/5;
-    display: flex;
-    justify-content: start;
-    margin: 130px 0 0px 35px;
-}
-
-
-.img-conteiner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-
-/*camperas y busos*/
-.camperasYbusos {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-.pantalon {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-
-/*zapatillas*/
-.moda {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-.zapatosYbotas {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-.Zapatos-z {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-/*accesorios*/
-.collares {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-.pulserasYreloj {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-.anillosYpendientes {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-}
-
-
-/*contacto*/
 
 .container {
     display: flex;
@@ -244,7 +123,7 @@ p {
 .contenedorh2 {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 90px;
     font-size: 20px;
 }
 
@@ -254,43 +133,178 @@ hr {
     height: 2px;
 }
 
-.datosDeContacto {
-    margin-top: 100px;
-    margin-left: 350px;
+/*hasta aca llega el INDEX */
+
+/*INTENTO RESPONSIVE*/
+/*celulas*/
+
+@media screen and (min-width: 992px) {
+    .navbar .alan {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .alan {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .clase {
+        margin-left: 18px;
+        position: relative;
+    }
+
+    .clase:after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3.5px;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(black, white);
+        transform: scale(0);
+        transform-origin: bottom right;
+        transition: transform 0.6s ease-out;
+    }
+
+    .clase:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .contenedorgeneral {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+        padding-left: 58px;
+        line-height: 25px;
+
+    }
+
+    .contenedorgeneral ul {
+        padding-left: 0;
+    }
+
+    .contenedorgeneral p {
+        text-decoration: underline;
+    }
+
+    .pago {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+
+    .pago p {
+        padding-left: 70px;
+        grid-area: 1/1/1/5;
+        display: flex;
+        justify-content: start;
+        text-decoration: underline;
+    }
+
 }
 
-.datosDeContacto p {
-    padding: 8px 0 10px 0;
+
+
+
+
+
+/*aparece la hamburguesa*/
+@media (min-width:601px) and (max-width: 991px) {
+    .navbar .alan {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .alan {
+        width: 100%;
+    }
+
+    .clase {
+        margin-left: 5px;
+    }
+
+    .producto-destacado .producto-categoria {
+        font-size: 3rem;
+    }
+
+    .producto-secundario .producto-categoria {
+        font-size: 0.9rem;
+    }
+
+    .productos {
+        gap: 0.1rem;
+        display: flex;
+        overflow:hidden;
+        padding-top: 1rem;
+    }
+
+    .producto-destacado {
+        margin-bottom: 0.2rem;
+    }
+
+    .contenedorgeneral {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .contenedorgeneral p {
+        text-decoration: underline;
+    }
+
+    ul {
+        padding-left: 0;
+    }
+
+    .cajah2 h2 {
+        font-size: 20px;
+    }
+
 }
 
-.formulario {
-    margin-top: 100px;
-    margin-left: 350px;
-    font-size: 18px;
-}
+/*para movil*/
+@media screen and (max-width: 600px) {
 
-input {
-    display: block;
-    margin: 10px 0 10px 0;
-    width: 300px;
-    height: 33px;
+    .alan {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: inherit;
+    }
 
-}
+    .productos {
+        grid-template-columns: repeat(1, 100%);
+    }
 
-.boton {
-    margin-top: 12px;
-    width: 50px;
-    margin-left: 250px;
-}
+    .contenedorgeneral {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
 
-textarea {
-    height: 120px;
-    width: 300px;
-    margin-top: 10px;
-}
+    .contenedorgeneral p {
+        text-decoration: underline;
+    }
 
-.footerContacto {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    ul {
+        padding-left: 0;
+    }
+
+    .section-img {
+        overflow:hidden;
+    }
+
+    .cajah2 h2 {
+        font-size: 15px;
+    }
+
 }

@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!--estilos css-->
     <link rel="stylesheet" href="../css/estilos.css">
     <title>Apolo</title>
@@ -13,249 +16,263 @@
 <body>
     <!--header-->
     <header class="header">
-        <nav>
-            <ul>
-                <li class="clase"><a href="../index.html">Inicio</a></li>
-                <li class="clase"><a href="./ropa.html">Ropa</a></li>
-                <li class="clase"><a href="./zapatillas.html">Zapatillas</a></li>
-                <li class="clase"><a href="./accesorios.html">Accesorios</a></li>
-                <li class="clase"><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="alan">
+                <div class="titulo">
+                    <h1>Apolo</h1>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="clase" href="../index.html">Inicio</a>
+                        <a class="clase" href="../pages/ropa.html">Ropa</a>
+                        <a class="clase" href="../pages/zapatillas.html">Zapatillas</a>
+                        <a class="clase" href="../pages/accesorios.html">Accesorios</a>
+                        <a class="clase" href="../pages/contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
 
     <!--mainAccesorios-->
     <main class="accesorios">
-        <h1>Apolo</h1>
         <article class="joyas">
 
             <!--collares-->
-            <section class="collares" id="CollaresImgChica">
+            <section class="section-img" id="CollaresImgChica">
                 <div class="cajah2">
                     <h2>Collares...</h2>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="../img/accesorios/collares/c1(pararopa).jpg" alt="collar">
+                        <p class="nombrePrenda">Collar Police</p>
+                        <p class="precio">$1.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/collares/c2.jpg" alt="collar">
+                        <p class="nombrePrenda">Collar con dije Flecha</p>
+                        <p class="precio">$2.500</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/collares/c3.jpg" alt="collar">
+                        <p class="nombrePrenda">Collar con dije Triangular</p>
+                        <p class="precio">$2.500</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/collares/c5.jpg" alt="collar">
+                        <p class="nombrePrenda">Collar con dije de Chapa</p>
+                        <p class="precio">$2.400</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/collares/c6.jpg" alt="collar">
+                        <p class="nombrePrenda">Collar con punta Oxidiana</p>
+                        <p class="precio">$1.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/collares/c7(pararopa).jpg" alt="collar">
+                        <p class="nombrePrenda">Collar Rectangular</p>
+                        <p class="precio">$1.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/collares/c8.jpg" alt="collar">
+                        <p class="nombrePrenda">Collar con dije Kunai</p>
+                        <p class="precio">$1.599</p>
+                    </div>
 
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/collares/c1(pararopa).jpg" alt="collar" >
-                    <p class="nombrePrenda">Collar Police</p>
-                    <p class="precio">$1.999</p>
                 </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/collares/c2.jpg" alt="collar" >
-                    <p class="nombrePrenda">Collar con dije Flecha</p>
-                    <p class="precio">$2.500</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/collares/c3.jpg" alt="collar" >
-                    <p class="nombrePrenda">Collar con dije Triangular</p>
-                    <p class="precio">$2.500</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/collares/c5.jpg" alt="collar" >
-                    <p class="nombrePrenda">Collar con dije de Chapa</p>
-                    <p class="precio">$2.400</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/collares/c6.jpg" alt="collar" >
-                    <p class="nombrePrenda">Collar con punta Oxidiana</p>
-                    <p class="precio">$1.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/collares/c7(pararopa).jpg" alt="collar" >
-                    <p class="nombrePrenda">Collar Rectangular</p>
-                    <p class="precio">$1.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/collares/c8.jpg" alt="collar" >
-                    <p class="nombrePrenda">Collar con dije Kunai</p>
-                    <p class="precio">$1.599</p>
-                </div>
-                <div class="img-conteiner">
-
             </section>
 
             <!--pulseras y reloj-->
-            <section class="pulserasYreloj" id="PulserasImgChica">
+            <section class="section-img" id="PulserasImgChica">
                 <div class="cajah2">
                     <h2>Pulseras y Reloj...</h2>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/1.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera de Cuero</p>
+                        <p class="precio">$799</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/3.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera de Perlas</p>
+                        <p class="precio">$699</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/4.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera de Cuero</p>
+                        <p class="precio">$899</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/7.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera con eslabones Negros</p>
+                        <p class="precio">$599</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/10.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera de Cuero</p>
+                        <p class="precio">$699</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/11.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera de Perlas</p>
+                        <p class="precio">$699</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/pulsera4.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera con eslabones Negros</p>
+                        <p class="precio">$499</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/pulsera5.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera de piel negra</p>
+                        <p class="precio">$699</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/pulsera7.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera de Cuero</p>
+                        <p class="precio">$599</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/pulsera8.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera de Cuero</p>
+                        <p class="precio">$699</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/pulsera11.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera Doble</p>
+                        <p class="precio">$999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/pulsera12.jpg" alt="pulsera">
+                        <p class="nombrePrenda">Pulsera Black</p>
+                        <p class="precio">$1.299</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/13.jpg" alt="reloj de hombre">
+                        <p class="nombrePrenda">Reloj Mori - Black</p>
+                        <p class="precio">$4.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/16.jpg" alt="reloj de hombre">
+                        <p class="nombrePrenda">Reloj Ambitio Shaun- Black</p>
+                        <p class="precio">$7.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/17.jpg" alt="reloj de hombre">
+                        <p class="nombrePrenda">Reloj de Acero Inoxidable - Black</p>
+                        <p class="precio">$23.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/18.jpg" alt="reloj de hombre">
+                        <p class="nombrePrenda">Reloj de Acero Inoxidable</p>
+                        <p class="precio">$20.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/21.jpg" alt="reloj de hombre">
+                        <p class="nombrePrenda">Reloj de Acero Inoxidable</p>
+                        <p class="precio">$23.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/20.jpg" alt="reloj de hombre">
+                        <p class="nombrePrenda">Reloj Grover Renegade</p>
+                        <p class="precio">$17.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/reloj6.jpg" alt="reloj de hombre">
+                        <p class="nombrePrenda">Reloj Moment Elias</p>
+                        <p class="precio">$10.999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/pulsera y reloj/reloj8.jpg" alt="reloj de hombre">
+                        <p class="nombrePrenda">Reloj de Nácar - Gris</p>
+                        <p class="precio">$13.599</p>
+                    </div>
 
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/1.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera de Cuero</p>
-                    <p class="precio">$799</p>
                 </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/3.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera de Perlas</p>
-                    <p class="precio">$699</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/4.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera de Cuero</p>
-                    <p class="precio">$899</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/7.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera con eslabones Negros</p>
-                    <p class="precio">$599</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/10.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera de Cuero</p>
-                    <p class="precio">$699</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/11.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera de Perlas</p>
-                    <p class="precio">$699</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/pulsera4.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera con eslabones Negros</p>
-                    <p class="precio">$499</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/pulsera5.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera de piel negra</p>
-                    <p class="precio">$699</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/pulsera7.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera de Cuero</p>
-                    <p class="precio">$599</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/pulsera8.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera de Cuero</p>
-                    <p class="precio">$699</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/pulsera11.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera Doble</p>
-                    <p class="precio">$999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/pulsera12.jpg" alt="pulsera" >
-                    <p class="nombrePrenda">Pulsera Black</p>
-                    <p class="precio">$1.299</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/13.jpg" alt="reloj de hombre" >
-                    <p class="nombrePrenda">Reloj Mori - Black</p>
-                    <p class="precio">$4.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/16.jpg" alt="reloj de hombre" >
-                    <p class="nombrePrenda">Reloj Ambitio Shaun- Black</p>
-                    <p class="precio">$7.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/17.jpg" alt="reloj de hombre" >
-                    <p class="nombrePrenda">Reloj de Acero Inoxidable - Black</p>
-                    <p class="precio">$23.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/18.jpg" alt="reloj de hombre" >
-                    <p class="nombrePrenda">Reloj de Acero Inoxidable</p>
-                    <p class="precio">$20.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/21.jpg" alt="reloj de hombre" >
-                    <p class="nombrePrenda">Reloj de Acero Inoxidable</p>
-                    <p class="precio">$23.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/20.jpg" alt="reloj de hombre" >
-                    <p class="nombrePrenda">Reloj Grover Renegade</p>
-                    <p class="precio">$17.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/reloj6.jpg" alt="reloj de hombre" >
-                    <p class="nombrePrenda">Reloj Moment Elias</p>
-                    <p class="precio">$10.999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/pulsera y reloj/reloj8.jpg" alt="reloj de hombre" >
-                    <p class="nombrePrenda">Reloj de Nácar - Gris</p>
-                    <p class="precio">$13.599</p>
-                </div>
-
             </section>
 
             <!--anillos y pendientes-->
-            <section class="anillosYpendientes" id="AnilloP">
+            <section class="section-img" id="AnilloP">
                 <div class="cajah2">
                     <h2>Anillos y Pendientes...</h2>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a8.jpg" alt="anillo de hombre">
+                        <p class="nombrePrenda">Anillo de Acero</p>
+                        <p class="precio">$499</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a2.jpg" alt="anillo de hombre">
+                        <p class="nombrePrenda">Anillo de Acero</p>
+                        <p class="precio">$699</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a4.jpg" alt="anillo de hombre">
+                        <p class="nombrePrenda">Anillo de Acero</p>
+                        <p class="precio">$599</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a9.jpg" alt="anillo de hombre">
+                        <p class="nombrePrenda">Anillo de Acero</p>
+                        <p class="precio">$999</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a10.jpg" alt="anillo de hombre">
+                        <p class="nombrePrenda">Anillo de Acero</p>
+                        <p class="precio">399$</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a11.jpg" alt="anillo de hombre">
+                        <p class="nombrePrenda">Anillo de Acero</p>
+                        <p class="precio">$469</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a13.jpg" alt="aritos de hombre">
+                        <p class="nombrePrenda">Pendiente de Acero</p>
+                        <p class="precio">$399</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a14.jpg" alt="aritos de hombre">
+                        <p class="nombrePrenda">Pendiente de Acero</p>
+                        <p class="precio">$299</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a15.jpg" alt="aritos de hombre">
+                        <p class="nombrePrenda">Pendiente de Acero</p>
+                        <p class="precio">$399</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a19.jpg" alt="aritos de hombre">
+                        <p class="nombrePrenda">Pendiente de Acero</p>
+                        <p class="precio">$299</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a28.jpg" alt="aritos de hombre">
+                        <p class="nombrePrenda">Pendiente de Acero</p>
+                        <p class="precio">$259</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a29.jpg" alt="aritos de hombre">
+                        <p class="nombrePrenda">Pendiente de Acero</p>
+                        <p class="precio">$349</p>
+                    </div>
+                    <div class="col">
+                        <img src="../img/accesorios/aros y anillo/a30.jpg" alt="aritos de hombre">
+                        <p class="nombrePrenda">Pendiente de Acero</p>
+                        <p class="precio">$279</p>
+                    </div>
 
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a8.jpg" alt="anillo de hombre" >
-                    <p class="nombrePrenda">Anillo de Acero</p>
-                    <p class="precio">$499</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a2.jpg" alt="anillo de hombre" >
-                    <p class="nombrePrenda">Anillo de Acero</p>
-                    <p class="precio">$699</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a4.jpg" alt="anillo de hombre" >
-                    <p class="nombrePrenda">Anillo de Acero</p>
-                    <p class="precio">$599</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a9.jpg" alt="anillo de hombre" >
-                    <p class="nombrePrenda">Anillo de Acero</p>
-                    <p class="precio">$999</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a10.jpg" alt="anillo de hombre" >
-                    <p class="nombrePrenda">Anillo de Acero</p>
-                    <p class="precio">399$</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a11.jpg" alt="anillo de hombre" >
-                    <p class="nombrePrenda">Anillo de Acero</p>
-                    <p class="precio">$469</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a13.jpg" alt="aritos de hombre" >
-                    <p class="nombrePrenda">Pendiente de Acero</p>
-                    <p class="precio">$399</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a14.jpg" alt="aritos de hombre" >
-                    <p class="nombrePrenda">Pendiente de Acero</p>
-                    <p class="precio">$299</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a15.jpg" alt="aritos de hombre" >
-                    <p class="nombrePrenda">Pendiente de Acero</p>
-                    <p class="precio">$399</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a19.jpg" alt="aritos de hombre" >
-                    <p class="nombrePrenda">Pendiente de Acero</p>
-                    <p class="precio">$299</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a28.jpg" alt="aritos de hombre" >
-                    <p class="nombrePrenda">Pendiente de Acero</p>
-                    <p class="precio">$259</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a29.jpg" alt="aritos de hombre" >
-                    <p class="nombrePrenda">Pendiente de Acero</p>
-                    <p class="precio">$349</p>
-                </div>
-                <div class="img-conteiner">
-                    <img src="../img/accesorios/aros y anillo/a30.jpg" alt="aritos de hombre" >
-                    <p class="nombrePrenda">Pendiente de Acero</p>
-                    <p class="precio">$279</p>
-                </div>
+                </div>    
             </section>
-            
+
         </article>
 
         <!--footer-->
@@ -304,6 +321,9 @@
 
         </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
