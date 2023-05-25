@@ -29,7 +29,6 @@ a {
     grid-template-columns: repeat(3, 30%);
     justify-content: center;
     gap: 3rem;
-    /* espacio entre articulo */
 }
 
 
@@ -82,7 +81,6 @@ a {
 }
 
 /*los otros html*/
-/*Ropa*/
 .row {
     text-align: center;
 }
@@ -90,8 +88,9 @@ a {
 .col {
     padding: 10px;
 }
+
 .col p {
-    margin-bottom:0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .conteinerRopa {
@@ -102,32 +101,9 @@ h2 {
     padding-top: 2rem;
 }
 
-
-/*tipo de letra*/
-p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
-/*footer*/
-
-
-.subiralinicio {
-    font-size: 2rem;
-}
-
+/*Contacto*/
 .container {
     display: flex;
-}
-
-.contenedorh2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.contenedorh2 h2 {
-    padding-top: 0;
 }
 
 .container {
@@ -137,11 +113,6 @@ p {
 
 input {
     margin-bottom: 1rem;
-}
-hr {
-    margin: 20px;
-    width: 30%;
-    height: 2px;
 }
 
 .boton {
@@ -154,12 +125,37 @@ hr {
     cursor: pointer;
 }
 
-/*hasta aca llega el INDEX */
+/*tipo de letra*/
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
-/*INTENTO RESPONSIVE*/
-/*celulas*/
+/*footer*/
+.subiralinicio {
+    font-size: 2rem;
+}
+
+.contenedorh2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.contenedorh2 h2 {
+    padding-top: 0;
+}
+
+hr {
+    margin: 20px;
+    width: 30%;
+    height: 2px;
+}
+
+/*Responsive*/
 
 @media screen and (min-width: 992px) {
+
+    /*nav*/
     .navbar .alan {
         display: flex;
         flex-direction: column;
@@ -198,6 +194,7 @@ hr {
         transform-origin: bottom left;
     }
 
+    /*footer*/
     .contenedorgeneral {
         display: flex;
         justify-content: space-around;
@@ -228,17 +225,12 @@ hr {
         justify-content: start;
         text-decoration: underline;
     }
-
- 
 }
 
-
-
-
-
-
-/*aparece la hamburguesa*/
+/*cambia el nav*/
 @media (min-width:601px) and (max-width: 991px) {
+
+    /*nav*/
     .navbar .alan {
         display: flex;
         flex-wrap: inherit;
@@ -254,6 +246,7 @@ hr {
         margin-left: 5px;
     }
 
+    /*cambio en los productos*/
     .producto-destacado .producto-categoria {
         font-size: 3rem;
     }
@@ -265,7 +258,7 @@ hr {
     .productos {
         gap: 0.1rem;
         display: flex;
-        overflow:hidden;
+        overflow: hidden;
         padding-top: 1rem;
     }
 
@@ -273,6 +266,11 @@ hr {
         margin-bottom: 0.2rem;
     }
 
+    .cajah2 h2 {
+        font-size: 25px;
+    }
+
+    /*Footer*/
     .contenedorgeneral {
         display: flex;
         flex-direction: column-reverse;
@@ -287,11 +285,7 @@ hr {
         padding-left: 0;
     }
 
-    .cajah2 h2 {
-        font-size: 20px;
-    }
-
-       /*contacto*/
+    /*contacto*/
     .container {
         flex-direction: column;
         width: 100%;
@@ -301,16 +295,14 @@ hr {
     .datosDeContacto {
         text-align: center;
     }
+
     .form {
         padding-top: 1rem;
     }
-
-
 }
 
 /*para movil*/
 @media screen and (max-width: 600px) {
-
     .alan {
         display: flex;
         width: 100%;
@@ -318,6 +310,7 @@ hr {
         flex-wrap: inherit;
     }
 
+    /*cambio en los productos*/
     .productos {
         grid-template-columns: repeat(1, 100%);
     }
@@ -332,29 +325,29 @@ hr {
         text-decoration: underline;
     }
 
+    .cajah2 h2 {
+        font-size: 20px;
+    }
+
     ul {
         padding-left: 0;
     }
 
     .section-img {
-        overflow:hidden;
+        overflow: hidden;
     }
 
-    .cajah2 h2 {
-        font-size: 15px;
-    }
-
-   .container {
+    /*Contacto*/
+    .container {
         flex-direction: column;
         margin: 0;
     }
 
     .datosDeContacto {
-        overflow:hidden;
+        overflow: hidden;
     }
 
     .boton {
         width: 80px;
     }
-
 }
