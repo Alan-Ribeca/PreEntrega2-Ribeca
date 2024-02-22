@@ -1,0 +1,230 @@
+[
+    {
+        "id": 1,
+        "title": "Monstera Deliciosa",
+        "size": "Large",
+        "price": 1500,
+        "stock": 10,
+        "img": "1.jpg",
+        "category": "interior",
+        "description": "Una planta de interior es perfecta para dar vida y color a tu hogar. Con su encanto natural, añade un toque de frescura y serenidad a cualquier espacio interior. Disfruta de la belleza de la naturaleza en la comodidad de tu casa.",
+        "valoracion": "Muy buena, !Hermosa planta! Cumple con todas mis expectativas y más. Definitivamente la recomendaría a todos mis amigos y familiares.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas cerca de ventanas con luz indirecta.",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Croton",
+        "size": "Small",
+        "price": 2200,
+        "stock": 15,
+        "img": "2.jpg",
+        "category": "interior",
+        "description": "Una planta de interior es perfecta para dar vida y color a tu hogar. Con su encanto natural, añade un toque de frescura y serenidad a cualquier espacio interior. Disfruta de la belleza de la naturaleza en la comodidad de tu casa.",
+        "valoracion": "Muy buena, !Hermosa planta! Cumple con todas mis expectativas y más. Definitivamente la recomendaría a todos mis amigos y familiares.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas cerca de ventanas con luz indirecta.",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Calathea",
+        "size": "Medium",
+        "price": 2100,
+        "stock": 9,
+        "img": "3.jpg",
+        "category": "interior",
+        "description": "Una planta de interior es perfecta para dar vida y color a tu hogar. Con su encanto natural, añade un toque de frescura y serenidad a cualquier espacio interior. Disfruta de la belleza de la naturaleza en la comodidad de tu casa.",
+        "valoracion": "Muy buena, !Hermosa planta! Cumple con todas mis expectativas y más. Definitivamente la recomendaría a todos mis amigos y familiares.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas cerca de ventanas con luz indirecta.",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Anthurium Vitechii",
+        "size": "Small",
+        "price": 1800,
+        "stock": 10,
+        "img": "4.jpg",
+        "category": "interior",
+        "description": "Una planta de interior es perfecta para dar vida y color a tu hogar. Con su encanto natural, añade un toque de frescura y serenidad a cualquier espacio interior. Disfruta de la belleza de la naturaleza en la comodidad de tu casa.",
+        "valoracion": "Muy buena, !Hermosa planta! Cumple con todas mis expectativas y más. Definitivamente la recomendaría a todos mis amigos y familiares.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas cerca de ventanas con luz indirecta.",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Syngonium Albo",
+        "size": "Large",
+        "price": 2700,
+        "stock": 24,
+        "img": "5.jpg",
+        "category": "interior",
+        "description": "Una planta de interior es perfecta para dar vida y color a tu hogar. Con su encanto natural, añade un toque de frescura y serenidad a cualquier espacio interior. Disfruta de la belleza de la naturaleza en la comodidad de tu casa.",
+        "valoracion": "Muy buena, !Hermosa planta! Cumple con todas mis expectativas y más. Definitivamente la recomendaría a todos mis amigos y familiares.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas cerca de ventanas con luz indirecta.",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Aspargus Plumoso",
+        "size": "Medium",
+        "price": 1700,
+        "stock": 15,
+        "img": "6.jpg",
+        "category": "interior",
+        "description": "Una planta de interior es perfecta para dar vida y color a tu hogar. Con su encanto natural, añade un toque de frescura y serenidad a cualquier espacio interior. Disfruta de la belleza de la naturaleza en la comodidad de tu casa.",
+        "valoracion": "Muy buena, !Hermosa planta! Cumple con todas mis expectativas y más. Definitivamente la recomendaría a todos mis amigos y familiares.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas cerca de ventanas con luz indirecta.",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Orquídea Phalaenopsis",
+        "size": "Small",
+        "price": 1800,
+        "stock": 15,
+        "img": "7.jpg",
+        "category": "exterior",
+        "description": "Una planta de exterior es ideal para decorar tu jardín o balcón. Con su belleza natural y resistencia al clima, añade frescura y vida a cualquier espacio al aire libre.",
+        "valoracion": "Maso menos, La planta es aceptable, pero no impresionante. Es linda, aunque esperaba un poco más en términos de calidad y durabilidad.",
+        "detalle": [
+            {
+                "Luz": "Coloca las plantas en lugares con un poco de sombra",
+                "Riego": "Un poco todos los dias",
+                "Temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "Podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Ficus elástica",
+        "size": "Large",
+        "price": 2800,
+        "stock": 12,
+        "img": "8.jpg",
+        "category": "exterior",
+        "description": "Una planta de exterior es ideal para decorar tu jardín o balcón. Con su belleza natural y resistencia al clima, añade frescura y vida a cualquier espacio al aire libre.",
+        "valoracion": "Maso menos, La planta es aceptable, pero no impresionante. Es linda, aunque esperaba un poco más en términos de calidad y durabilidad.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas en lugares con un poco de sombra",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Fitonia",
+        "size": "Small",
+        "price": 1600,
+        "stock": 17,
+        "img": "9.jpg",
+        "category": "exterior",
+        "description": "Una planta de exterior es ideal para decorar tu jardín o balcón. Con su belleza natural y resistencia al clima, añade frescura y vida a cualquier espacio al aire libre.",
+        "valoracion": "Maso menos, La planta es aceptable, pero no impresionante. Es linda, aunque esperaba un poco más en términos de calidad y durabilidad.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas en lugares con un poco de sombra",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Maranta Leuconeura",
+        "size": "Large",
+        "price": 2500,
+        "stock": 20,
+        "img": "10.jpg",
+        "category": "exterior",
+        "description": "Una planta de exterior es ideal para decorar tu jardín o balcón. Con su belleza natural y resistencia al clima, añade frescura y vida a cualquier espacio al aire libre.",
+        "valoracion": "Maso menos, La planta es aceptable, pero no impresionante. Es linda, aunque esperaba un poco más en términos de calidad y durabilidad.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas en lugares con un poco de sombra",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Begonia Maculata",
+        "size": "Medium",
+        "price": 15,
+        "stock": 20,
+        "img": "11.jpg",
+        "category": "exterior",
+        "description": "Una planta de exterior es ideal para decorar tu jardín o balcón. Con su belleza natural y resistencia al clima, añade frescura y vida a cualquier espacio al aire libre.",
+        "valoracion": "Maso menos, La planta es aceptable, pero no impresionante. Es linda, aunque esperaba un poco más en términos de calidad y durabilidad.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas en lugares con un poco de sombra",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "title": "maranta Light",
+        "size": "Medium",
+        "price": 1900,
+        "stock": 6,
+        "img": "12.jpg",
+        "category": "holamundo",
+        "description": "Una planta de exterior es ideal para decorar tu jardín o balcón. Con su belleza natural y resistencia al clima, añade frescura y vida a cualquier espacio al aire libre.",
+        "valoracion": "Maso menos, La planta es aceptable, pero no impresionante. Es linda, aunque esperaba un poco más en términos de calidad y durabilidad.",
+        "detalle": [
+            {
+                "luz": "Coloca las plantas en lugares con un poco de sombra",
+                "riego": "Un poco todos los dias",
+                "temperatura": "Mantén las plantas en un ambiente con temperaturas moderadas.",
+                "podar": "Retira hojas muertas o marchitas y poda ramas enfermas."
+            }
+        ]
+}
+]

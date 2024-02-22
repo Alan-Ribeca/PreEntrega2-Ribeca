@@ -1,0 +1,73 @@
+.containerProductos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 247px);
+  gap: 1.5rem;
+  margin-top: 4rem;
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .Producto {
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4rem -1rem rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    height: 449px;
+
+    .img-producto {
+      width: auto;
+      height: auto;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    .infoProducto {
+      margin: 0.5rem 0 0 0.5rem;
+
+      .precio {
+        font-size: x-large;
+      }
+
+      .titeProduc {
+        margin: 1rem 0 0 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: x-large;
+        .envio {
+          font-size: small;
+          color: #02be0b;
+        }
+      }
+
+      .hr {
+        margin-right: 0.5rem;
+        border: none;
+        border-top: 1px solid #0b921f;
+      }
+    }
+
+    .detalles {
+      display: flex;
+      justify-content: space-evenly;
+
+      .ojo {
+        &:hover {
+          cursor: pointer;
+          color: #02be0b;
+        }
+      }
+
+      .carro {
+        &:hover {
+          cursor: pointer;
+          color: #02be0b;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.footer {
+    background-image: url(/img/fondo.png);
+    background-size: cover;
+    height: max-content;
+    margin: 2rem 0 .5rem 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    color: rgb(40, 134, 21);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ; 
+    grid-gap: 10px;
+    
+    .procteccion {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+        
+        .escudo {
+            margin-top: 0.5rem;
+            margin-bottom: 0.3rem;
+        }
+        .tituloEscudo {
+            margin: 0;
+            color: white;
+        }
+        .proteccion-p {
+            width: 50%;
+            margin-top: 0.5rem;
+            font-size: small;
+            color: white;
+            
+            .signo {
+                color: green;
+            }
+        }
+    }
+
+    .tarjeta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+        .tituloTarjeta {
+            margin: 0;
+            color: white;
+        }
+        .infoCard {
+            width: 70%;
+            margin-top: 0.5rem;
+            font-size: small;
+            color: white;
+
+            .sinTarjeta {
+                color: green;
+            }
+        }
+    }
+}

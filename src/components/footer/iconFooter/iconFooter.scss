@@ -1,0 +1,29 @@
+.infoFooter {
+  margin-left: 2rem;
+
+  .tituloFooter {
+    color: white;
+    margin: 0rem 0 0.5rem 0.8rem;
+
+    .puntosTitle {
+      color: green;
+    }
+  }
+
+  .icon-list {
+    list-style: none;
+    padding-left: 3.5rem;
+    margin: 0;
+    li {
+      padding-bottom: 0.9rem;
+
+      .icons {
+        padding-right: 0.5rem;
+      }
+
+      .pFooter {
+        color: white;
+      }
+    }
+  }
+}
