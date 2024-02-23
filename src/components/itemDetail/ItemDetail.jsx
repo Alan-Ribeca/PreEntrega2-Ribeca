@@ -88,7 +88,7 @@ export const ItemDetail = ({ item }) => {
             </div>
             <div className="total">
               <strong>Total Precio</strong>
-              <p className="numero">${item.price}</p>
+              <p className="numero">${item.price * count}</p>
             </div>
           </div>
         </div>
