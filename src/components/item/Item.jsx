@@ -10,11 +10,11 @@ export const Item = ({ product }) => {
         <img src={`../img/${product.img}`} alt={`Imagen de ${product.title}`} />
       </div>
       <div className="infoProducto">
-        <p className="titleProduc">{product.title}</p>
-        <strong className="precio">${product.price}</strong>
+        <h2 className="titleProduc">{product.title}</h2>
+        <p className="precio">${product.price}</p>
         <strong className="envio">Envío gratis</strong>
-        <strong className="stock">Stock: {product.stock}</strong>
-        <button className="carrito">Agregar al carrito</button>
+        <p className="stock">Stock: {product.stock}</p>
+        <strong className="verMas">ver mas...</strong>
       </div>
       </Link>
     </section>
