@@ -1,14 +1,18 @@
 // eslint-disable-next-line react/prop-types
 import { BotonesNavbar } from "../botonesNavbar/BotonesNavbar";
 import "./navbar.scss";
+import { Link } from "react-router-dom";
 import imgLogo from "/img/logo.png";
 export const Navbar = () => {
   return (
     <nav className="navbar">
+      <Link to={"/cart"}>
       <div className="containerNav">
         <img src={imgLogo} className="logoTienda" alt="logo de la tienda" />
         <BotonesNavbar />
       </div>
+      </Link>
+      
       <section className="buscador">
         <div className="group">
           <svg className="icon" aria-hidden="true" viewBox="0 0 24 24">

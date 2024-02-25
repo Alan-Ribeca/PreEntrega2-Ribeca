@@ -187,6 +187,9 @@
       width: 14rem;
       height: 3rem;
       cursor: pointer;
+      &:hover {
+        background-color:#04dd0f9c;
+      }
     }
   }
 }
