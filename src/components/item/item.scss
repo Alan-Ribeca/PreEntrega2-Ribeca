@@ -14,9 +14,9 @@
     border-radius: 6px;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     min-height: 21rem;
+
     &:hover {
       background-color: white;
-
       .titleProduc {
         color: #02be0b;
       }
@@ -32,6 +32,10 @@
       .stock {
         color: #02be0b;
       }
+
+      strong.verMas {
+        color: black;
+      }
     }
     .img-producto {
       height: 56%;
@@ -46,6 +50,7 @@
     .infoProducto {
       margin: 0.8rem 0 0 0.5rem;
       position: relative;
+      height: 40%;
 
       .titleProduc {
         font-weight: lighter;
@@ -75,7 +80,7 @@
 
       .verMas {
         position: absolute;
-        bottom: -55%;
+        bottom: 5%;
         left: 60%;
         color: #02be0b;
       }
