@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 import { BotonesNavbar } from "../botonesNavbar/BotonesNavbar";
 import "./navbar.scss";
-import imgLogo from "../../../public/img/logo.png";
+import imgLogo from "/img/logo.png";
 export const Navbar = () => {
   return (
     <nav className="navbar">
