@@ -1,11 +1,12 @@
+import "./checkout.scss"
 import { useRef } from "react"
 
 export const Checkout = () => {
   const formRef = useRef()
   const enviar = (e) => {
     e.preventDefault()
-    const datForm = new FormData(formRef.current) //paso un formulario HTML a un objeto iterator
-    const data = Object.fromEntries(datForm) //paso un objeto iterator a un objeto simple
+    const datForm = new FormData(formRef.current) 
+    const data = Object.fromEntries(datForm) 
     console.log(data)
     e.target.reset()
   }
