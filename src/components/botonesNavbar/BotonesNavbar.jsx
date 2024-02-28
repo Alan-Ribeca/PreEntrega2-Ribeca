@@ -18,7 +18,7 @@ export const BotonesNavbar = () => {
         <Link to={"/category/holamundo"}>
           <button className="botonNav"> Monitores </button>
         </Link>
-        <Link to={"/"}>
+        <Link to={"/category/accesorios"}>
           <button className="botonNav"> Accesorios </button>
         </Link>
         <CartWidget />
