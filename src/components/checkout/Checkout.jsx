@@ -40,10 +40,31 @@ export const Checkout = () => {
   };
 
   const enviar = (e) => {
-    e.preventDefault();
     const datForm = new FormData(formRef.current);
     const data = Object.fromEntries(datForm);
     console.log(data);
+    e.preventDefault()
+
+    const formulario = document.querySelector(".compra")
+    const texto = document.createElement("P")
+    texto.textContent = "¡Felicitaciones por su compra!"
+    texto.className = "formularioEnviado"
+    formulario.appendChild(texto)
+
+    setTimeout( () => {
+      e.target.reset()
+      setFormulario({
+        nombre: "",
+        dni: "",
+        email: "",
+        telefono: "",
+        direccion: "",
+      });
+
+      texto.remove()
+      setErrores({});
+    }, 2000)
+
   };
 
   return (
