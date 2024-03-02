@@ -18,17 +18,21 @@ export const Cart = () => {
         </>
       ) : (
         <>
-          {<ItemList products={carrito} plantilla={ItemCart} />}
-          <div>
-            <p>Resumen de la compra: $ {totalPrice()}</p>
-            <button onClick={emptyCart}>Vaciar carrito</button>
-            <Link to={"/"}>
-              <button>Seguir comprando</button>
-            </Link>
-            <Link to={"/checkout"}>
-              <button>Finalizar compra</button>
-            </Link>
-          </div>
+          <section className="cart">
+            <div className="itemProductos">
+              {<ItemList products={carrito} plantilla={ItemCart} />}
+            </div>
+            <div className="resumenCompra">
+              <p>Resumen de la compra: $ {totalPrice()}</p>
+              <button onClick={emptyCart}>Vaciar carrito</button>
+              <Link to={"/"}>
+                <button>Seguir comprando</button>
+              </Link>
+              <Link to={"/checkout"}>
+                <button>Finalizar compra</button>
+              </Link>
+            </div>
+          </section>
         </>
       )}
     </>

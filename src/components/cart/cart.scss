@@ -1,1 +1,17 @@
+.cart {
+    display: flex;
+    
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .resumenCompra {
+        margin-top: 3rem;
+        margin-left: 9.3rem;
+        background: rgba(253, 253, 253, 0.384);
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.596);
+        border-radius: 7px;
+
+    }
+}
