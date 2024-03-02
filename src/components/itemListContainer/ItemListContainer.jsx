@@ -32,7 +32,7 @@ export const ItemListContainer = () => {
     <>
       {mostrarBento && <BentoGrid />}
       <section className="containerProductos">
-        <ItemList products={products} />
+        <ItemList products={products} plantilla="Item" />
       </section>
     </>
   );
