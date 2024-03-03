@@ -63,6 +63,8 @@ export const Checkout = () => {
 
       texto.remove()
       setErrores({});
+
+      window.location.replace("/")
     }, 2000)
 
   };

@@ -11,10 +11,12 @@ export const Cart = () => {
     <>
       {carrito.length === 0 ? (
         <>
-          <h1>carrito vacio</h1>
-          <Link to="/">
-            <button className="btnInicio">Volver al inicio</button>
-          </Link>
+          <div className="vacio">
+            <h1 className="cartVacio">carrito vacio</h1>
+            <Link to="/">
+              <button className="btnInicio">Ver productos...</button>
+            </Link>
+          </div>
         </>
       ) : (
         <>
@@ -32,7 +34,9 @@ export const Cart = () => {
                 Total <strong className="totalPrice">$ {totalPrice()}</strong>
               </p>
               <div className="botonResumen">
-                <button onClick={emptyCart} className="vaciarCarrito">Vaciar carrito</button>
+                <button onClick={emptyCart} className="vaciarCarrito">
+                  Vaciar carrito
+                </button>
                 <Link to={"/"}>
                   <button className="seguirComprando">Seguir comprando</button>
                 </Link>

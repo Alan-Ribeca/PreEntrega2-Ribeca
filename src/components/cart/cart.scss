@@ -1,3 +1,23 @@
+.vacio {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .cartVacio {
+    text-transform: uppercase;
+  }
+
+  .btnInicio {
+    border: none;
+    font-size: large;
+    background-color: transparent;
+    color: rgba(0, 0, 255, 0.514);
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
 .cart {
   display: flex;
 
