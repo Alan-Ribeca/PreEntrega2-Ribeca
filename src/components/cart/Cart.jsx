@@ -23,13 +23,22 @@ export const Cart = () => {
               {<ItemList products={carrito} plantilla={ItemCart} />}
             </div>
             <div className="resumenCompra">
-              <p>Resumen de la compra: $ {totalPrice()}</p>
-              <button onClick={emptyCart}>Vaciar carrito</button>
-              <Link to={"/"}>
-                <button>Seguir comprando</button>
-              </Link>
+              <h1>Resumen de compra</h1>
+              <hr className="hrCarrito" />
+              <p className="envio">
+                Envio <strong className="gratis">Gratis</strong>
+              </p>
+              <p>
+                Total <strong className="totalPrice">$ {totalPrice()}</strong>
+              </p>
+              <div className="botonResumen">
+                <button onClick={emptyCart} className="vaciarCarrito">Vaciar carrito</button>
+                <Link to={"/"}>
+                  <button className="seguirComprando">Seguir comprando</button>
+                </Link>
+              </div>
               <Link to={"/checkout"}>
-                <button>Finalizar compra</button>
+                <button className="finalizarCompra">Finalizar compra</button>
               </Link>
             </div>
           </section>
